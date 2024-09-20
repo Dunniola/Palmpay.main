@@ -20,10 +20,10 @@ function Popup() {
   return (
     isVisible &&(
     <>
-    <div className=' fixed bottom-0 bg-purple-700 text-white px-16 max-md:px-5'>
+    <div className=' fixed bottom-0 bg-purple-700 text-white px-10 max-md:px-2'>
         <div className="flex justify-between items-center">
         <h2 className='text-2xl font-bold pt-5 mb-5'>How We Use Your Cookies</h2>
-        <FaTimes className ="text-4xl relative  rounded-full  left-14 max-md:left-0"  onClick={closePopup}/>
+        <FaTimes className ="text-4xl relative  rounded-full  left-10 max-md:left-0"  onClick={closePopup}/>
         </div>
         <p className='text-[16px] leading-tight'>This site uses cookies to improve your experience and values your privacy. Deleting cookies will reset your preferences, treating you as a new visitor when you visit again. We use cookies to provide a secure environment, offer requested products/services, enhance performance, and tailor offerings to your needs for a better online experience.</p>
 

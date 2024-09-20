@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
       <div className=" bg-black">
-        <div className="flex pt-8 gap-5 place-content-center max-md:flex-col max-md:px-10 md:justify-between px-16">
+        <div className="flex pt-8 gap-5 place-content-center max-md:flex-col max-md:px-2 md:justify-between px-10">
           <div className="">
             <img src={Palmpay} alt="" className="mb-5" />
             <img src={NG} alt="" className="bg-white rounded-lg" />
@@ -69,7 +69,7 @@ function Footer() {
           </div>
           <hr className=" border-slate-600"/>
         </div>
-        <div className="flex  space-x-4 p-4 flex-end bg-black w-screen place-content-end pr-20 max-md:place-content-start max-md:px-10 max-md: mb-5 mt-2">
+        <div className="flex  space-x-4 p-4 flex-end bg-black w-screen place-content-end pr-20 max-md:place-content-start max-md:px-2 max-md: mb-5 mt-2">
           <FaX className="text-red text-2xl bg-white rounded-full py-1" />
           <FaFacebook className="text-red text-2xl bg-white rounded-full py-1" />
           <FaInstagram className="text-red text-2xl bg-white rounded-full py-1" />
@@ -77,10 +77,10 @@ function Footer() {
           <FaLinkedin className="text-red text-2xl bg-white rounded-full py-1" />
         </div>
 
-        <div className="text-white px-24 max-md:px-10">
+        <div className="text-white px-10 max-md:px-2">
             <p className="">&copy;2023 PalmPay. All rights reserved.</p>
         </div>
-        <div className="text-white mt-5 px-20 text-[16px] text-justify pb-5 max-md:px-10">
+        <div className="text-white mt-5 px-10 text-[16px] text-justify pb-5 max-md:px-2">
           <p className="text-gray-500">Palmpay is a financial service provided by Palmpay Limited, licensed and regulated by the Central Bank of Nigeria (CBN) Deposits are insured by the Nigerian Deposit insurance Coperation company (NDIC) We empower individuals and businesses with payments solutions, high-yield investment oppourtunities and esay-to-use tools for Financial management We are a global company with a presence in Nigeria, Ghana, Tanzania, and the United Kingdom</p>
         </div>
       </div>
